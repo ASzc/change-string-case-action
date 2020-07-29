@@ -13,7 +13,7 @@ try {
     console.log(`uppercase: ${uppercase}`);
     core.setOutput("uppercase", uppercase);
 
-    const capitalized = inputStr.charAt(0).toUpperCase() + inputStr.slice(1);
+    const capitalized = inputStr.charAt(0).toUpperCase() + inputStr.slice(1).toLowerCase();
     console.log(`capitalized: ${capitalized}`);
     core.setOutput("capitalized", capitalized);
 } catch (error) {
