@@ -1,0 +1,20 @@
+name: Change String Case
+author: Alex Szczuczko
+description: Make a string lowercase, uppercase, or capitalized
+branding:
+  icon: corner-down-right
+  color: gray-dark
+inputs:
+  string:
+    description: The input string
+    required: true
+outputs:
+  lowercase:
+    description: The input string, with any uppercase characters replaced with lowercase ones
+  uppercase:
+    description: The input string, with any lowercase characters replaced with uppercase ones
+  capitalized:
+    description: The input string, with any alphabetical characters lowercase, except for the first character, which is uppercased
+runs:
+  using: node12
+  main: index.js
