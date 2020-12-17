@@ -28,7 +28,7 @@ Example: `XyZzY` -> `xyzzy`
 
 Example: `XyZzY` -> `XYZZY`
 
-### `lowercase`
+### `capitalized`
 
 `inputStr.charAt(0).toUpperCase() + inputStr.slice(1)`
 
