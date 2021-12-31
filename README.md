@@ -30,7 +30,7 @@ Example: `XyZzY` -> `XYZZY`
 
 ### `capitalized`
 
-`inputStr.charAt(0).toUpperCase() + inputStr.slice(1)`
+`inputStr.charAt(0).toUpperCase() + inputStr.slice(1).toLowerCase()`
 
 Example: `XyZzY` -> `Xyzzy`
 
