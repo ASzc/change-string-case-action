@@ -16,5 +16,5 @@ outputs:
   capitalized:
     description: The input string, with any alphabetical characters lowercase, except for the first character, which is uppercased
 runs:
-  using: node12
+  using: node16
   main: index.js
