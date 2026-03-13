@@ -10,7 +10,6 @@
   "author": "Alex Szczuczko",
   "license": "ISC",
   "dependencies": {
-    "@actions/core": "^3.0.0",
-    "@actions/github": "^9.0.0"
+    "@actions/core": "^2.0.3"
   }
 }

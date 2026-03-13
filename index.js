@@ -1,5 +1,4 @@
 const core = require('@actions/core');
-const github = require('@actions/github');
 
 try {
     const inputStr = core.getInput('string');
